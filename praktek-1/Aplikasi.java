@@ -4,6 +4,7 @@ public class Aplikasi {
             new Mahasiswa("19001", "tamami");
         Mahasiswa mhs2 = 
             new Mahasiswa("19002", "oka");
+        Mahasiswa mhs3 = new Mahasiswa();
 
         mhs1.cetak();
         mhs2.cetak();
