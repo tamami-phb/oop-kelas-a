@@ -24,6 +24,9 @@ public class Aplikasi {
 
         dsn1.cetak();
         dsn2.cetak();
+
+        Personal p1 = new Personal("1984001", "tamami");
+        System.out.println(p1);
     }
 
 }

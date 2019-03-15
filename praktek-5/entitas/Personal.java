@@ -29,4 +29,8 @@ public class Personal {
     public void setNama(String nama) {
         this.nama = nama;
     }
+
+    public String toString() {
+        return nik + " : " + nama;
+    }
 }
