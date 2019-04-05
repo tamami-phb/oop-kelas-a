@@ -12,6 +12,11 @@ public class Mahasiswa {
         this.kelas = kelas;
     }
 
+    public boolean equals(Object object) {
+        Mahasiswa mhs = (Mahasiswa) object;
+        return nim.equals(mhs.getNim());
+    }
+
     public String getNim() {
         return nim;
     }

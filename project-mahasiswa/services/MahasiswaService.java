@@ -12,7 +12,13 @@ public class MahasiswaService {
         System.out.println("data telah tersimpan");
     }
 
-    public void ubahData(Mahasiswa mhs) {}
+    public void ubahData(Mahasiswa mhs) {
+        int idx = data.indexOf(mhs);
+        if(idx >= 0) {
+            data.set(idx, mhs);
+            System.out.println("data telah berubah");
+        }
+    }
 
     public void hapusData(String nim) {}
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817e62fb-23c2-4eea-8497-d7c4ff684e6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project-mahasiswa/Aplikasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mahasiswa/Aplikasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-mahasiswa/Aplikasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-mahasiswa/entity/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-mahasiswa/entity/Mahasiswa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-mahasiswa/services/MahasiswaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-mahasiswa/services/MahasiswaService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-mahasiswa/entity/Mahasiswa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#293#294#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project-mahasiswa/services/MahasiswaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project-mahasiswa/Aplikasi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="287">
+              <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +123,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554449976181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554451127818" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -304,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-mahasiswa/entity/Mahasiswa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#293#294#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -325,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-mahasiswa/services/MahasiswaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -335,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project-mahasiswa/Aplikasi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="287">
+          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

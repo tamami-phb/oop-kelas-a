@@ -25,6 +25,7 @@ public class Aplikasi {
                 callFormTambahData();
                 break;
             case 2:
+                callFormUbahData();
                 break;
             case 3:
                 break;
@@ -32,6 +33,20 @@ public class Aplikasi {
                 service.tampilkanData();
                 break;
         }
+    }
+
+    private static void callFormUbahData() {
+        scanner = new Scanner(System.in);
+        String nim, nama, kelas;
+
+        System.out.println("\n-= Form Ubah Data =-");
+        System.out.print("NIM : ");
+        nim = scanner.nextLine();
+        System.out.print("NAMA : ");
+        nama = scanner.nextLine();
+        System.out.print("KELAS : ");
+        kelas = scanner.nextLine();
+        service.ubahData(new Mahasiswa(nim, nama, kelas));
     }
 
     private static void callFormTambahData() {
