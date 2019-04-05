@@ -1,5 +1,8 @@
 package services;
 
+import java.util.*;
+import entity.*;
+
 public class MahasiswaService {
 
     private static List<Mahasiswa> data = new LinkedList<Mahasiswa>();
