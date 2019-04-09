@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817e62fb-23c2-4eea-8497-d7c4ff684e6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/praktek-7-gui/Aplikasi.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-7-gui/Aplikasi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/praktek-7-gui/Aplikasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-7-gui/Aplikasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/praktek-9-image/Aplikasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,13 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/praktek-7-gui/Aplikasi.java">
+        <entry file="file://$PROJECT_DIR$/praktek-9-image/Aplikasi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -45,6 +42,7 @@
         <option value="$PROJECT_DIR$/project-mahasiswa/services/MahasiswaService.java" />
         <option value="$PROJECT_DIR$/project-mahasiswa/Aplikasi.java" />
         <option value="$PROJECT_DIR$/praktek-7-gui/Aplikasi.java" />
+        <option value="$PROJECT_DIR$/praktek-9-image/Aplikasi.java" />
       </list>
     </option>
   </component>
@@ -65,6 +63,11 @@
               <item name="oop-a" type="b2602c69:ProjectViewProjectNode" />
               <item name="oop-a" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oop-a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop-a" type="462c0819:PsiDirectoryNode" />
+              <item name="praktek-9-image" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +78,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554453276834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554795584882" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -274,10 +277,17 @@
     <entry file="file://$PROJECT_DIR$/praktek-7-gui/Aplikasi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/praktek-9-image/Aplikasi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
         </state>
       </provider>
     </entry>
