@@ -14,7 +14,19 @@ public class Aplikasi {
         int opsi = 5;
         do {
             tampilkanMenu();
-            opsi = scanner.nextInt();
+            try {
+                scanner = new Scanner(System.in);
+                opsi = scanner.nextInt();
+            } catch(InputMismatchException e) {
+                System.err.println("Silahkan periksa input menunya");
+                opsi = 0;
+            } catch(NoSuchElementException e) {
+                System.err.println("Inputnya exhausted");
+                opsi = 0;
+            } catch(IllegalStateException e) {
+                System.err.println("Scanner ketutup");
+                opsi = 0;
+            }
             seleksi(opsi);
         } while(opsi != 5);
     }
