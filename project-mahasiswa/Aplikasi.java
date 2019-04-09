@@ -28,11 +28,20 @@ public class Aplikasi {
                 callFormUbahData();
                 break;
             case 3:
+                callFormHapusData();
                 break;
             case 4:
                 service.tampilkanData();
                 break;
         }
+    }
+
+    private static void callFormHapusData() {
+        scanner = new Scanner(System.in);
+
+        System.out.print("NIM : ");
+        String nim = scanner.nextLine();
+        service.hapusData(nim);
     }
 
     private static void callFormUbahData() {
