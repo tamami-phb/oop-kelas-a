@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817e62fb-23c2-4eea-8497-d7c4ff684e6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/praktek-10-audio/Aplikasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI$BtnPlayClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI$BtnPlayClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI$BtnStopClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI$BtnStopClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,14 +20,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="169">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#313#314#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,14 +34,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="-124">
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#294#361#0" />
+                <element signature="e#660#686#0" />
+                <element signature="e#783#809#0" />
+                <element signature="e#2424#2533#0" />
+                <element signature="e#2555#2670#0" />
+                <element signature="e#1843#1889#0" />
+                <element signature="e#2158#2259#0" />
+                <element signature="e#2281#2388#0" />
               </folding>
             </state>
           </provider>
@@ -143,7 +147,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555053034704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555055766319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -202,8 +206,8 @@
     <frame x="1440" y="23" width="800" height="577" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21899736" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896908" visible="true" weight="0.21899736" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5010309" side_tool="true" visible="true" weight="0.21899736" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="DB Browser" order="4" />
@@ -237,6 +241,18 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/praktek-3/Aplikasi.java">
@@ -346,6 +362,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/praktek-7-gui/Aplikasi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/praktek-10-audio/Aplikasi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -357,40 +383,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/praktek-7-gui/Aplikasi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/praktek-10-audio/services/MyPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="169">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/praktek-10-audio/ui/MainUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="-124">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#294#361#0" />
+            <element signature="e#660#686#0" />
+            <element signature="e#783#809#0" />
+            <element signature="e#2424#2533#0" />
+            <element signature="e#2555#2670#0" />
+            <element signature="e#1843#1889#0" />
+            <element signature="e#2158#2259#0" />
+            <element signature="e#2281#2388#0" />
           </folding>
         </state>
       </provider>
