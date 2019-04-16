@@ -2,8 +2,10 @@ package ui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
-public class PapanGambar extends JPanel {
+public class PapanGambar extends JPanel
+        implements ActionListener {
 
     private Image image;
     private Timer timer;
@@ -13,7 +15,7 @@ public class PapanGambar extends JPanel {
     private final int HEIGHT = 350;
     private final int INIT_X = 0;
     private final int INIT_Y = 0;
-    private final int DELAY = 25;
+    private final int DELAY = 5;
 
     public PapanGambar() {
         initUI();
@@ -27,6 +29,9 @@ public class PapanGambar extends JPanel {
         y = INIT_Y;
 
         loadImage();
+
+        timer = new Timer(DELAY, this);
+        timer.start();
     }
 
     private void loadImage() {
@@ -43,6 +48,16 @@ public class PapanGambar extends JPanel {
     private void gambar(Graphics g) {
         g.drawImage(image, x, y, this);
         Toolkit.getDefaultToolkit().sync();
+    }
+
+    public void actionPerformed(ActionEvent evt) {
+        x++; y++;
+
+        if( y > HEIGHT) {
+            x = INIT_X;
+            y = INIT_Y;
+        }
+        repaint();
     }
 
 }
