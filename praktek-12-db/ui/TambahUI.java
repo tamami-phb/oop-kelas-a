@@ -19,8 +19,10 @@ public class TambahUI extends JFrame {
     private JTextField txtKelas;
     private JButton btnSimpan;
     private JButton btnBatal;
+    private MainUI parent;
 
-    public TambahUI() {
+    public TambahUI(MainUI parent) {
+        this.parent = parent;
         initUI();
     }
 
@@ -53,10 +55,24 @@ public class TambahUI extends JFrame {
         pack();
 
         btnSimpan.addActionListener(new BtnSimpanClick());
+        btnBatal.addActionListener(new BtnBatalClick());
+    }
+
+    public void clearForm() {
+        txtNim.setText("");
+        txtNama.setText("");
+        txtKelas.setText("");
     }
 
 
     // ------ events
+
+    private class BtnBatalClick implements ActionListener {
+        public void actionPerformed(ActionEvent evt) {
+            clearForm();
+            setVisible(false);
+        }
+    }
 
     private class BtnSimpanClick implements ActionListener {
         public void actionPerformed(ActionEvent evt) {
@@ -70,6 +86,9 @@ public class TambahUI extends JFrame {
                 int result = Aplikasi.koneksi.update(query);
                 if(result > 0) {
                     JOptionPane.showMessageDialog(null, "Data telah tersimpan");
+                    setVisible(false);
+                    parent.refreshTable();
+                    clearForm();
                 } else {
                     JOptionPane.showMessageDialog(null, "Tidak ada data yang berubah");
                 }

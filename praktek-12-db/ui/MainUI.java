@@ -50,12 +50,16 @@ public class MainUI extends JFrame {
         }
     }
 
+    public void refreshTable() {
+        initData();
+    }
+
     private void initUI() {
         setTitle("Aplikasi Mahasiswa");
 
         contentPane = getContentPane();
 
-        tambahUI = new TambahUI();
+        tambahUI = new TambahUI(this);
 
         columnName = new Vector();
         columnName.add("NIM");

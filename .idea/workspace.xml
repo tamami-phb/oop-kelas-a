@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817e62fb-23c2-4eea-8497-d7c4ff684e6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/MainUI$BtnTambahClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/MainUI$BtnTambahClick.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/MainUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI$BtnSimpanClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI$BtnSimpanClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/praktek-12-db/ui/TambahUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +33,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/praktek-12-db/ui/MainUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="456">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/praktek-12-db/ui/TambahUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="443">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -444,18 +451,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/praktek-12-db/ui/MainUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="456">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/praktek-12-db/ui/TambahUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="443">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
