@@ -22,6 +22,7 @@ public class MainUI extends JFrame {
     private DefaultTableModel tableModel;
     private JScrollPane scrollPane;
     private static TambahUI tambahUI;
+    private static UbahUI ubahUI;
 
     public JButton getBtnHapus() {
         return btnHapus;
@@ -60,6 +61,7 @@ public class MainUI extends JFrame {
         contentPane = getContentPane();
 
         tambahUI = new TambahUI(this);
+        ubahUI = new UbahUI(this);
 
         columnName = new Vector();
         columnName.add("NIM");
@@ -74,6 +76,7 @@ public class MainUI extends JFrame {
         tableModel = new DefaultTableModel(rowData, columnName);
         tableModel.setColumnIdentifiers(columnName.toArray());
         tabel = new JTable(tableModel);
+        tabel.setSelectionModel(new SingleRowMode());
         scrollPane = new JScrollPane(tabel);
         contentPane.add(scrollPane, BorderLayout.CENTER);
 
@@ -92,6 +95,15 @@ public class MainUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         btnTambah.addActionListener(new BtnTambahClick());
+        btnUbah.addActionListener(new BtnUbahClick());
+    }
+
+    // ----- inner class
+
+    private class SingleRowMode extends DefaultListSelectionModel {
+        public SingleRowMode() {
+            setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        }
     }
 
 
@@ -99,7 +111,23 @@ public class MainUI extends JFrame {
 
     private class BtnTambahClick implements ActionListener {
         public void actionPerformed(ActionEvent evt) {
+
             tambahUI.setVisible(true);
+        }
+    }
+
+    private class BtnUbahClick implements ActionListener {
+        public void actionPerformed(ActionEvent evt) {
+            String nim, nama, kelas;
+            if(tabel.getSelectedRow() != -1) {
+                nim = "" + tabel.getValueAt(tabel.getSelectedRow(), 0);
+                nama = tabel.getValueAt(tabel.getSelectedRow(), 1).toString();
+                kelas = (String) tabel.getValueAt(tabel.getSelectedRow(), 2);
+                ubahUI.tampilkan(nim, nama, kelas);
+            } else {
+                JOptionPane.showMessageDialog(null,
+                        "Silahkan pilih dahulu data yang akan diubah");
+            }
         }
     }
 
