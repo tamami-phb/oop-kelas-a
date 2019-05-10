@@ -21,6 +21,7 @@ public class MainUI extends JFrame {
     private Vector columnName;
     private DefaultTableModel tableModel;
     private JScrollPane scrollPane;
+    private static TambahUI tambahUI;
 
     public JButton getBtnHapus() {
         return btnHapus;
@@ -50,7 +51,11 @@ public class MainUI extends JFrame {
     }
 
     private void initUI() {
+        setTitle("Aplikasi Mahasiswa");
+
         contentPane = getContentPane();
+
+        tambahUI = new TambahUI();
 
         columnName = new Vector();
         columnName.add("NIM");
@@ -81,6 +86,17 @@ public class MainUI extends JFrame {
         pack();
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        btnTambah.addActionListener(new BtnTambahClick());
+    }
+
+
+    // -------- events
+
+    private class BtnTambahClick implements ActionListener {
+        public void actionPerformed(ActionEvent evt) {
+            tambahUI.setVisible(true);
+        }
     }
 
 }
